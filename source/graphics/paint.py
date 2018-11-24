@@ -5,10 +5,10 @@ from PyQt5.QtCore import QRectF
 from PyQt5.QtGui import QPainter
 from PyQt5.QtWidgets import QMainWindow, QDesktopWidget, QFileDialog, QWidget, QHBoxLayout, QVBoxLayout, QAction, qApp
 
-from source.graphics.extra_messages import *
-from source.graphics.settings_dlg import *
-from source.json_converter import *
-from source.graphics.move_buttons import *
+from graphics.extra_messages import *
+from graphics.settings_dlg import *
+from json_converter import *
+from graphics.move_buttons import *
 
 
 class MainWindow(QMainWindow):
